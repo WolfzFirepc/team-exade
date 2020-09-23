@@ -1,0 +1,263 @@
+body
+{
+background: black;
+overflow-x: hidden;
+}
+.navbar
+{
+background: transparent;
+}
+.mainbutton
+{
+position: relative;
+font-size: 1vw;
+color: white;
+background: transparent;
+border: none;
+width: 20%;
+border-radius: 10%;
+transition: .3s;
+}
+.mainbutton:hover
+{
+background-color: #8F0003;
+transition: .3s;
+}
+.navbutton
+{
+position: relative;
+left: 40%;
+font-size: 1vw;
+color: white;
+transition: .3s;
+background: transparent;
+border: none;
+width: 12%;
+border-radius: 10%;
+}
+.navbutton:hover
+{
+background-color: #8F0003;
+transition: .3s;
+}
+
+.bigbutton
+{
+position: relative;
+left: 40%;
+font-size: 1vw;
+color: white;
+transition: .3s;
+background: transparent;
+border: 2px solid white;
+width: 12%;
+border-radius: 10%;
+text-decoration: none;
+}
+.bigbutton:hover
+{
+background-color: #8F0003;
+transition: .3s;
+}
+.banner
+{
+position: relative;
+width: 40%;
+float: right;
+}
+.open
+{
+font-size: 2.5vw;
+cursor: pointer;
+width: 10%;
+float: left;
+}
+.content
+{
+position: relative;
+color: white;
+font-size: 2vw;
+width: 30%;
+top: 7em;
+left: 21%;
+}
+.about
+{
+left: 36%;
+color: white;
+position: absolute;
+top: 45%;
+font-size: 2vw;
+}
+.contentheader
+{
+position: relative;
+color: white;
+font-size: 3vw;
+width: 30%;
+top: 5em;
+left: 30%;
+}
+.contentbutton
+{
+top: 0;
+position: relative;
+border-radius: 5%;
+background: transparent;
+font-size: 1.8vw;
+border: 1px solid white;
+color: white;
+float: left;
+left: 30%;
+top: 8em;
+transition: .3s;
+border-radius: 5%;
+}
+.contentbutton:hover
+{
+background-color: white;
+transition: .3s;
+color: black;
+}
+.banner2
+{
+top: 0;
+width: 40%;
+position: relative;
+float: left;
+margin-top: 28%;
+border: 1px solid white;
+}
+.content2
+{
+position: relative;
+color: white;
+font-size: 2vw;
+width: 30%;
+float: right;
+right: 17%;
+}
+.contentheader2
+{
+position: relative;
+color: white;
+font-size: 3vw;
+width: 30%;
+top: 12em;
+left: 45%;
+}
+.contentbutton2
+{
+top: 0;
+position: relative;
+border-radius: 5%;
+background: transparent;
+font-size: 1.8vw;
+border: 1px solid white;
+color: white;
+float: left;
+left: 15%;
+top: 5em;
+transition: .3s;
+border-radius: 5%;
+}
+.contentbutton2:hover
+{
+background-color: white;
+transition: .3s;
+color: black;
+}
+
+
+
+
+.banner3
+{
+top: 0;
+width: 35%;
+position: relative;
+float: right;
+margin-top: 10%;
+right: 10%;
+}
+.content3
+{
+top: 0;
+padding-top: 23%;
+position: relative;
+color: white;
+font-size: 2vw;
+width: 30%;
+float: left;
+left: 5%;
+}
+.contentheader3
+{
+position: relative;
+color: white;
+font-size: 3vw;
+width: 30%;
+top: 8em;
+left: 10%;
+}
+.contentbutton3
+{
+top: 0;
+position: relative;
+border-radius: 5%;
+background: transparent;
+font-size: 2.3vw;
+border: 1px solid white;
+color: white;
+float: left;
+right: 15%;
+top: 14em;
+transition: .3s;
+border-radius: 5%;
+}
+.contentbutton3:hover
+{
+background-color: white;
+transition: .3s;
+color: black;
+}
+.aboutbanner1
+{
+transition: 1s;
+width: 0%;
+height: 20%;
+z-index: -1;
+}
+.overlay
+{
+
+position: fixed; 
+display: block; 
+width: 50%; 
+height: 50%; 
+top: 0;
+margin-top: 15%;
+left: 25%;
+right: 0;
+bottom: 0;
+background-color: white; 
+z-index: 2; 
+cursor: default; 
+opacity: .5;
+border-radius: 5%;
+}
+.overlayheader
+{
+position: relative;
+font-size: 5vw;
+text-decoration: underline;
+}
+.overlaycontent
+{
+font-size: 3.5vw;
+}
+
+.memberlist
+{
+font-size: 3vw;
+}
